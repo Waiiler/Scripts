@@ -2,11 +2,11 @@ require "date"
 require 'active_support/all'
 
 def fechaV
-  print "Ingrese la fecha de creacion: "
+  print "Ingrese la fecha de creación: "
   diac = gets.chomp
-  print "Ingrese el tipo: "
+  print "Ingrese el tipo caso: "
   tipo = gets.chomp
-  puts tipo
+
   it = 0
   diahabil= 0
   if tipo == "peticiones" || tipo == "quejas" || tipo == "reclamos" || tipo == "felicitaciones"
