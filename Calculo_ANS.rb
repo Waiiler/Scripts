@@ -24,7 +24,7 @@ def fechaV
       it = it + 1
     puts fechavencimiento
     end 
-  elsif tipo == "solicitud"
+  elsif tipo == "solicitudes"
     ans = 5
     while it < ans
       @day_of_week = (Date.strptime(diac, "%d/%m/%Y") + (it+1).day).wday
